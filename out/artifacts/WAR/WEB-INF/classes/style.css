@@ -1,0 +1,129 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f6fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centered Card Container */
+.container {
+    width: 400px;
+    margin: 80px auto;
+    padding: 30px;
+    background: #ffffff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+/* Page Title */
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Form Inputs */
+input[type="text"],
+input[type="password"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 7px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Buttons */
+button, .btn {
+    width: 100%;
+    background: #2980b9;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover, .btn:hover {
+    background: #1c5982;
+}
+
+/* Links */
+a {
+    color: #2980b9;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Success and Error Messages */
+.success {
+    color: green;
+    text-align: center;
+    font-size: 14px;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Home Navigation Links */
+.nav-links a {
+    display: block;
+    background: #3498db;
+    padding: 12px;
+    margin: 10px 0;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.nav-links a:hover {
+    background: #226a97;
+}
+
+/* Table Styles */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background: #2980b9;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+/* Top bar */
+.topbar {
+    width: 100%;
+    padding: 15px 20px;
+    background: #2980b9;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.topbar .right {
+    float: right;
+}
